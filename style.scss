@@ -12,3 +12,8 @@ $text-colour: black;
 $border: none;
 $padding: 5px;
 $transition: ease-in-out 250ms 25ms
+
+//Mixins
+  @mixin transition($t)
+  -webkit-transtion: $t;
+  
