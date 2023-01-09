@@ -17,11 +17,11 @@ $transition: ease-in-out 250ms 25ms
 // CSS
   
 html, body {
-  background: $background
-  padding: 0;
-  margin: 0;
-  color: $text-colour
-  font-family: $font-stack
+    background: $background;
+    padding: 0;
+    margin: 0;
+    color: $text-colour;
+    font-family: $font-stack;
 }
 a {
     color: #0d47a1;
