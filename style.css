@@ -2,7 +2,8 @@ body {
   -webkit-transition: 1;
   -moz-transition: 1;
   -transition: 1;
-  background: #ffffff
+  background: #ffffff;
+  padding: 5
 }
 title {
   background: #0026ff;
