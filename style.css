@@ -6,6 +6,9 @@ body {
 }
 title {
   background: #0026ff;
+  left: 1;
+  right: 0;
+  center: 0;
   text-colour: "black";
   font-family: "Segoe UI"
 }
