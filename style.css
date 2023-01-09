@@ -14,6 +14,8 @@ $border: none;
 $padding: 5px;
 $transition: ease-in-out 250ms 25ms
 
+// CSS
+  
 body {
   background: $background
   padding: 0;
