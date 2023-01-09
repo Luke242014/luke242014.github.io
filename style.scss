@@ -16,8 +16,8 @@ $transition: ease-in-out 250ms 25ms
 //Mixins
 @mixin transition($t) {
  -webkit-transition: $t;
- -moz-transition: $t;
- transition: $t
+    -moz-transition: $t;
+         transition: $t
 }
 // CSS
 
