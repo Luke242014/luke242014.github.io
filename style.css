@@ -1,15 +1,33 @@
 body {
+  background: url("background.png");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
   -webkit-transition: 1;
   -moz-transition: 1;
   -transition: 1;
-  background: #ffffff;
-  padding: 5
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 0;
 }
+
+h1 {
+  text-size: 60px;
+}
+
 title {
-  background: #0026ff;
+  background-color: #0026ff;
+  position: fixed;
   left: 1;
   right: 0;
   center: 0;
+  padding: 3;
   text-colour: "black";
-  font-family: "Segoe UI"
+  font-family: "Segoe UI";
+  
+  h1 {
+    text-size: 100px;
+  }
+  
 }
