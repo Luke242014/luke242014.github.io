@@ -23,5 +23,257 @@ html, body {
   color: $text-colour
   font-family: $font-stack
 }
-  
-  
+a {
+    color: #0d47a1;
+    text-decoration: none;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.smallprint {
+    background-color: $accent-colour;
+    padding: 0.1rem;
+    position: relative;
+    height: 5rem;
+}
+
+.smallprint a:hover, .title a:hover {
+    background: $background;
+    color: $text-colour;
+}
+
+.content {
+    margin: 5px + $padding;
+    margin-top: 38px + $padding * 4;
+    min-height: calc(100vh - 38px - (#{$padding} * 4) - 5.8rem);
+}
+
+.title {
+    background-color: $accent-colour;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 38px;
+    padding: 0;
+    padding-bottom: 2px;
+    border-bottom: $border;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 2px 2px;
+
+    h1 {
+        font-weight: 300;
+        font-size: 32px;
+        margin: 0;
+        margin-top: -$padding + 2px;
+        text-align: center;
+    }
+
+    a {
+        color: $accent-fg;
+        font-family: 'Ubuntu', $font-stack;
+    }
+
+    img {
+        position: fixed;
+        left: 0;
+        margin: 0;
+        height: 1em;
+        padding: 2px;
+        font-size: 36px;
+        @include transition($transition)
+    }
+}
+
+#welcome .imgwrapper {
+    h1, h2, #credit {
+        font-family: 'Ubuntu', $font-stack;
+    }
+}
+
+img, iframe {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+iframe {
+    border: 1px solid $accent-colour;
+}
+
+hr {
+    border: $border;
+    padding-top: $padding;
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        max-height: 38px;
+        min-height: 27px;
+        height: auto;
+        padding-bottom: 0;
+
+        h1 {
+            font-size: 6vw;
+        }
+
+        img {
+            max-height: 35px;
+            min-height: 20px;
+            height: 6vw;
+        }
+    }
+    body {
+        margin: 0px !important;
+        top: 28px !important;
+        margin-top: 28px !important;
+    }
+    h1, h2, h3, h4, h5, h6, p, li, body {
+        text-align: center;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .indent a {
+        padding: 5px;
+        display: inline-block;
+    }
+}
+
+.hashshow {
+    display: none;
+}
+.hashshow:target {
+    display: block;
+}
+
+.new {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    padding: $padding;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centre, .smallprint {
+    text-align: center;
+}
+
+.title a:hover {
+    background-color: transparent;
+}
+.noselect, #loadscreen, .forceblur, .blur:not(:hover), .button {
+   -ms-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: -moz-none;
+   user-select: none;
+}
+#loadscreen {
+    background-color: $accent-colour;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+#loadscreen, #loadscreen h1, #loadscreen img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#loadscreen h1 {
+    margin: auto;
+    position: fixed;
+    font-size: 11vw;
+    height: 16.5vw;
+    text-align: center;
+}
+#loadscreen img {
+    margin: auto;
+    position: fixed;
+    height: 75%;
+}
+
+
+.blur:not(:hover), .forceblur {
+    text-shadow: 0 0 8px black !important;
+    color: transparent !important;
+}
+.blur, abbr {
+    cursor: help;
+}
+a, button {
+    cursor: pointer;
+}
+.button, button, input[type=submit] {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+    text-decoration: none;
+    background: $accent-colour;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    text-shadow: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    outline: none;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #111111;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        box-shadow: none;
+    }
+}
+
+input[type=checkbox] {
+    background-color: #FFFFFF;
+}
+@media only screen and (min-width: 480px) {
+    a, a img:not(:hover), a:not(:hover), .blur, a img, .title, .button, button, input {
+    	@include transition($transition);
+    }
+
+    .indent {
+        margin-left: 0.5em;
+    }
+}
+.forceblur {
+    cursor: not-allowed;
+}
+code, .code {
+    background-color: $accent-colour;
+    border: 1px solid #aaa;
+    font-family: "Ubuntu Mono", monospace;
+    padding: 0.2em;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75vw;
+}
+td, th {
+    border: 1px solid $accent-colour;
+    padding: 5px;
+}
