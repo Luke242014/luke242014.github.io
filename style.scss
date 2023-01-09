@@ -8,18 +8,11 @@
 $font-stack: 'Segoe UI','Calibri','sans-serif';
 $background: #ffffff;
 $accent-colour: #0026ff;
+$accent-fg: black;
 $text-colour: black;
 $border: none;
 $padding: 5px;
 $transition: ease-in-out 250ms 25ms
-
-//Mixins
-@mixin transition($t) {
- -webkit-transition: $t;
-    -moz-transition: $t;
-         transition: $t
-}
-// CSS
 
 html, body {
   background: $background
