@@ -1,29 +1,29 @@
---
-# luke242014.github.io CSS file
-# copied from luk3yx.
---
+---
+# luk3yx.github.io CSS file
+# Mostly copied from the old site
+---
 
-//Variables
+// Variables
 
-$font-stack: 'Segoe UI','Calibri','sans-serif';
-$background: #ffffff;
-$accent-colour: #0026ff;
-$accent-fg: black;
-$text-colour: black;
-$border: none;
-$padding: 5px;
-$transition: ease-in-out 250ms 25ms
+$font-stack:    'Roboto', 'Ubuntu', 'Segoe UI', 'Arial', 'sans-serif';
+$background:    #FFFFFF;
+$accent-colour: #0026FF;
+$accent-fg:     black;
+$text-colour:   black;
+$border:        none;
+$padding:       5px;
+$transition:    ease-in-out 250ms 25ms;
 
-  // Mixins
+// Mixins
 @mixin transition($t) {
   -webkit-transition: $t;
      -moz-transition: $t;
           transition: $t;
 }
-  
-// CSS
- 
-  
+
+// The CSS
+
+
 html, body {
     background: $background;
     padding: 0;
@@ -285,3 +285,5 @@ td, th {
     border: 1px solid $accent-colour;
     padding: 5px;
 }
+ 
+  
