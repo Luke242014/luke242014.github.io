@@ -1,1 +1,11 @@
-
+body {
+  -webkit-transition: 1;
+  -moz-transition: 1;
+  -transttion: 1;
+  background: #ffffff
+}
+title {
+  background: #0026ff;
+  text-colour: black;
+  font-family: "Segoe UI"
+}
