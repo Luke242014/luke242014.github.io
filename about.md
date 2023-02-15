@@ -20,4 +20,6 @@ This is Luke242014's official website, but it used ".md".
 
 &copy; Copyright 2022. All Rights Reserved.
 
+Website made by Luke242014. Do not distribute!
+
 
