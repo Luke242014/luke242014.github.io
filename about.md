@@ -12,4 +12,12 @@ WHAT DO U WANT IDK?
 
 I created my scratch account in January 2, 2022.
 
+# About this website
+
+This is Luke242014's official website, but it used ".md".
+
+# Copyrights
+
+&copy; Copyright 2022. All Rights Reserved.
+
 
