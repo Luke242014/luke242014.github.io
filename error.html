@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>If you are not redirected, please make sure JavaScript is enabled.</p>
+<script>
+  switch(window.location.hash) {
+    case '#400':
+    case '#e400:
+      a = '400.md';
+      break;
+    case '#404':
+    case '#e404':
+      a = '404.md';
+      break;
+    case '#410':
+    case '#e410':
+      a = '410.md';
+      break;
+    default:
+      a = '418.md';
+      break;
+  }
+  window.location.href = a;
+</script>
