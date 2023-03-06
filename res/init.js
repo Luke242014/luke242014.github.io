@@ -1,4 +1,4 @@
-function getInit()
+function getInit() {
 	print("Initated.")
 }
 
