@@ -1,0 +1,35 @@
+/* CSS */
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+html, body {
+	background: #222;
+	padding: 0;
+	margin: 0;
+	text-align: rigt;
+}
+
+ins {
+	color: #555;
+}
+
+p {
+	color: white;	
+}
+
+h1 {
+	font-size: 30px;
+	color: white;
+}
+
+a {
+	color: #0be;
+}
+
+a:hover {
+	color: #0ef;
+}
