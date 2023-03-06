@@ -4,6 +4,6 @@ function getInit()
 
 if (javaEnabled == true) {
 	getInit()
-else 
+} else {
 	print("Failed to initate.")
 }
