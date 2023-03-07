@@ -1,8 +1,3 @@
----
-title: Games
-layout: default
----
-
 # Games
 
 My games that can make you enjoy
