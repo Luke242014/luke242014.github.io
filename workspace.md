@@ -1,3 +1,8 @@
+---
+title: Workspace
+layout: default
+---
+
 # Workspace
 
 Create your own games in [Roblox Studio](https://web.roblox.com/create).
