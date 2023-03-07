@@ -48,11 +48,18 @@ ul li a {
 }
 
 ul li a:hover {
-	color: #555;
+	background: #111;
+	color: #0ef;
 }
 
 ul li:nth-child(1) a {
 	border-left: 0;
+}
+
+ul {
+	background: #222;
+	display: block
+	text-align: center;	
 }
 
 a {
