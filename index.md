@@ -1,0 +1,7 @@
+# Welcome!
+
+## Welcome to luke242014's website.
+
+### At this thing, you will see...
+
+This web used ".md", Go to the About page to [learn more](https://luke242014.github.io/about).
