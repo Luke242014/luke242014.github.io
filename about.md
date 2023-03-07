@@ -1,3 +1,8 @@
+---
+title: About
+layout: default
+---
+
 # About Me
 
 Hello, my name is Emmanuel.
