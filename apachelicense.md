@@ -1,4 +1,6 @@
-   # Read the full license.
+   # License
+   
+   ## NOTE: This is what they can/can't do with Luke242014's code.
    
    Apache License
    Version 2.0, January 2004
