@@ -30,3 +30,13 @@ This web used ".md", Go to the About page to [learn more](https://luke242014.git
 <a href="https://www.google.com/teapot">Error 418</a>
 <br/>
 <a href="https://www.google.com/search?q=do+a+barrel+roll">Do a barrel roll</a>
+<br/>
+<a href="https://www.google.com/search?q=flip+a+coin">Flip a coin</a> 
+<br/>
+<a href="https://www.google.com/search?q=tic+tac+toe">Tic tac toe</a>
+<br/>
+<a href="https://www.google.com/logos/2010/pacman0-i.html">Google pac man</a>
+<br/>
+<a href="https://www.google.com/search?q=google+doodle+games">Google doodle games</a>
+
+Go to [elgoog.im](https://elgoog.im/) if you want to see **more easter eggs**.
