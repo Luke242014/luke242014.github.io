@@ -35,7 +35,7 @@ This web used ".md", Go to the About page to [learn more](https://luke242014.git
 <br/>
 <a href="https://www.google.com/search?q=tic+tac+toe">Tic tac toe</a>
 <br/>
-<a href="https://www.google.com/logos/2010/pacman0-i.html">Google pac man</a>
+<a href="https://www.google.com/logos/2010/pacman10-i.html">Google pac man</a>
 <br/>
 <a href="https://www.google.com/search?q=google+doodle+games">Google doodle games</a>
 
