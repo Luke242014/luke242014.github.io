@@ -20,3 +20,9 @@ This web used ".md", Go to the About page to [learn more](https://luke242014.git
     Pastebin
   </a>
 </details>
+
+# Some Google easter eggs
+
+<a href="https://www.google.com/teapot">Error 418</a>
+<br/>
+<a href="https://www.google.com/search?q=do+a+barrel+roll">Do a barrel roll</a>
