@@ -1,0 +1,24 @@
+---
+layout: default
+title: URL Shortener
+---
+
+<h1>URL Shortener. Credit to <a href="http://tinyurl.com">TinyURL</a> and <a href="https://luk3yx.github.io">luk3yx.github.io</a>.</h1>
+
+<form action="http://tinyurl.com/create.php" method="post" target="_blank">
+	<p>URL To make tiny:</p>
+	<input type="text" name="url" placeholder="URL Required" size="30">
+	<input type="submit" name="submit" value="Generate TinyURL!">
+	
+	<p>
+		Custom alias: http://tinyurl.com/<input type="text" name="alias" size="15">
+		<br/>
+		<small>
+			The custom alias is optional, and may
+			contain letters, numbers, and/or dashes.
+			<br/>
+			Use at least 8 letters in the custom alias to
+			make sure it is unique.
+		</small>
+	</p>
+</form>
