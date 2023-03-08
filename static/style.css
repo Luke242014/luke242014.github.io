@@ -75,3 +75,7 @@ a {
 a:hover {
 	color: #0ef;
 }
+
+summary {
+	color: white;
+}
