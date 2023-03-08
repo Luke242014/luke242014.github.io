@@ -7,11 +7,11 @@ title: QR Code Generator
 
 <form action="https://api.qrserver.com/v1/create-qr-code/" method="get" target="_blank">
 	<p>Text:</p>
-	<input type="text" name="data" size="30">
+	<input type="text" name="data" size="30" placeholder="URL Required">
 	<p>Prefix 'text' with 'http://' or 'https://' for URL.</p>
 	
 	<p>Size:</p>
-	<input type="text" name="size" value="150x150">
+	<input type="text" name="size" value="150x150" placeholder="150x150">
 	
 	<p>Error Correction</p>
 	<select id="ecc">
