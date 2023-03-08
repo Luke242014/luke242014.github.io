@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+
+<h1>QR Code Generator. Credit to <a href="https://luk3yx.github.io">luk3yx.github.io</a> and <a href="https://goqr.me">goqr.me</a>.</h1>
+
+<form action="https://api.qrserver.com/v1/create-qr-code/" method="get" target="_blank">
+	<p>Text:</p>
+	<input type="text" name="data" size="30">
+	<p>Prefix 'text' with 'http://' or 'https://' for URL.</p>
+	
+	<p>Size:</p>
+	<input type="text" name="size" value="150x150">
+	
+	<p>Error Correction</p>
+	<select id="ecc">
+		<option value="L">7%: Low</option>
+		<option value="M">15%: Medium</option>
+		<option value="Q">25%: Quite Good</option>
+		<option value="H">30%: Highest</option>
+	</select>
+	
+	<input type="submit" name="submit" value="Generate QR Code!">
+</form>
