@@ -20,6 +20,10 @@ This web used ".md", Go to the About page to [learn more](https://luke242014.git
     Pastebin
   </a>
   <br/>
+  <a href="{{ page.root }}luadisplayer">
+    LUA Displayer (JavaScript Required)
+  </a>
+  <br/>
   <a href="{{ page.root }}urlshortener">
     URL Shortener
   </a>
