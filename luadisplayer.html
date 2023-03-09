@@ -1,0 +1,25 @@
+---
+layout: default
+title: LUA Displayer
+---
+
+<p>Paste your LUA here:</p>
+
+<textarea id="textarea1" style="width: 100%; min-height: 250px"></textarea>
+
+<p>The LUA should be displayed here.</p>
+
+<textarea readonly id="textarea2" style="width: 100%; min-height: 250px"></textarea>
+
+<script type="text/javascript" async defer>
+	var textarea1 = document.getElementById('textarea1');
+	var textarea2 = document.getElementById('textarea2');
+	textarea1.value = textarea2.value = '';
+
+	function update() {
+		textarea2.value = textarea1.value;
+	}
+	
+	textarea1.addEventListener('change', update);
+	textarea2.addEventListener('focus', update);
+</script>
