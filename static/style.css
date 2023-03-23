@@ -64,7 +64,7 @@ ul li:nth-child(1) a {
 
 ul {
 	background: #222;
-	display: block
+	display: block;
 	text-align: center;	
 }
 
