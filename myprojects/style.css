@@ -32,7 +32,7 @@ a:hover {
   }
   
   p {
-    align: bottom;
+    text-align: bottom;
     margin: 10px
   }
 }
