@@ -1,0 +1,21 @@
+---
+layout: default
+title: HTML Viewer
+---
+
+<h1>HTML Viewer</h1>
+
+<input type="file" id="chooser" onchange="update">
+
+<iframe src="" id="viewer">
+  
+<script>
+ function update() {
+   var chooser = document.getElementById("chooser");
+   var viewer = document.getElementById("viewer");
+   const [file] = chooser.files;
+   if (file) {
+    viewer.src = URL.createObjectURL(file);
+   }
+ }
+</script>
