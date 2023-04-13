@@ -35,11 +35,4 @@ a:hover {
   img {
     align: top;
   }
-  
-  p {
-    background: #111;
-    color: white;
-    text-align: bottom;
-    margin: 10px;
-  }
 }
