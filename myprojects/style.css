@@ -39,7 +39,7 @@ a:hover {
   p {
     background: #111;
     color: white;
-    align: bottom;
+    text-align: bottom;
     margin: 10px;
   }
 }
