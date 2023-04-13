@@ -25,7 +25,8 @@ a:hover {
 .box {
   background: #111;
   border: 1px solid #777;
-  padding: 10px;
+  height: 100px;
+  width: 50px
   
   img {
     align: top;
