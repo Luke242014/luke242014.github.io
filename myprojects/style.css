@@ -35,4 +35,10 @@ a:hover {
   img {
     align: top;
   }
+  
+  a {
+    color: white;
+    align: bottom;
+    margin: 10px;
+  }
 }
