@@ -36,7 +36,8 @@ a:hover {
     align: top;
   }
   
-  a {
+  p {
+    background: #111;
     color: white;
     align: bottom;
     margin: 10px;
